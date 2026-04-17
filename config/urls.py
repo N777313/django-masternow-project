@@ -22,4 +22,7 @@ urlpatterns = [
 #    path('/home', include('core.urls')),				# error wrong
 #     path('home/', include('apps.core.urls')),
     path('', include('apps.core.urls')),
+#    path('', include('registration.urls')),
+    path('auth/', include('apps.registration.urls')),
+    path('orders/', include('apps.orders.urls')),
 ]

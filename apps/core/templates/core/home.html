@@ -1,1 +1,100 @@
-<h1>Main page successfully works.</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courier Service</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e8f5e9;
+        }
+
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .site-name {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #388e3c;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="site-name">Tirek AI</div>
+    <div>Fast & Reliable Delivery Service</div>
+</header>
+
+<nav>
+    <a href="/auth/register/">Registration</a>
+    <a href="/orders/create/">Create Request</a>
+    <a href="/orders/dashboard/">Dashboard</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contacts</a>
+</nav>
+
+<div class="container">
+
+    <div id="register" class="card">
+        <h2>Registration</h2>
+        <p>Create an account to start using our courier services.</p>
+    </div>
+
+    <div id="create" class="card">
+        <h2>Create Request</h2>
+        <p>Submit a delivery request quickly and easily.</p>
+    </div>
+
+    <div id="about" class="card">
+        <h2>About Us</h2>
+        <p>We provide fast, secure, and reliable courier delivery services.</p>
+    </div>
+
+    <div id="contact" class="card">
+        <h2>Contacts</h2>
+        <p>Email: support@yourcourier.com</p>
+        <p>Phone: +000 000 000</p>
+    </div>
+
+</div>
+
+</body>
+</html>
